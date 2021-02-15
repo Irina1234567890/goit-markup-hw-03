@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
+} 
+.header {
+    background-color:  #FFFFFF;
+    letter-spacing: 0.02em;
+    outline: #2196F3;
+}
+a .span {
+   color: #2196F3;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+}
+
+.nav-studio {
+    color: var(--black-text);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.site-nav a {
+    font-weight: 500;
+    color: var(--black-text);
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.site-nav a:hover, 
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.contacts a {
+    font-weight: 500;
+    color: var(--grey-text);
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.contacts a:hover, 
+.contacts a:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+     color: var(--accent-color);
+}
+
+.section-title {
+    color:var(--black-text);
+}
+
+.hero {
+    background: var(--baground-color);
+    letter-spacing: 0.06em;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    color: var(--white-text);
+    font-family: Roboto;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    background-color: var(--accent-color);
+    color: var(--white-text);
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+}
+
+.feature .title {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--black-text);
+    line-height: 1.14;
+}
+
+.paragraf {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--grey-text);
+    line-height: 1.7;
+}
+.section-topic {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.section-second {
+    background-color: var(--baground-second);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.par {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.footer {
+    background-color: var(--baground-color);
+}
+.footer-studio {
+    font-weight: bold;
+    font-size: 26px;
+    color: var(--white-text);
+}
+
+.footer-street {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--white-text);
+    line-height: 1.7;
+}
+
+.footer-mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.mailto, .tel {
+    color: var(--grey-text-op06);
+}
