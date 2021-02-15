@@ -1,17 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
     letter-spacing: 0.03em;
-    outline: #2196F3;
 }
 
 a {
     text-decoration: none;
 } 
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .header {
     background-color:  #FFFFFF;
     letter-spacing: 0.02em;
 }
+
 a .span {
    color: #2196F3;
    font-family: 'Raleway', sans-serif;
@@ -20,6 +40,10 @@ a .span {
    line-height: 1.2;
 }
 
+.site-nav {
+    padding: 0;
+    margin: 0;
+}
 .nav-studio {
     color: var(--black-text);
     font-family: 'Raleway', sans-serif;
@@ -40,6 +64,10 @@ a .span {
     color: var(--accent-color);
 }
 
+.contacts {
+    padding: 0;
+    margin: 0;
+}
 .contacts a {
     font-weight: 500;
     color: var(--grey-text);
@@ -60,12 +88,15 @@ a .span {
     color:var(--black-text);
 }
 
+/*HERO*/
 .hero {
     background: var(--baground-color);
     letter-spacing: 0.06em;
 }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 32px;
     font-weight: 900;
     font-size: 44px;
     color: var(--white-text);
@@ -85,7 +116,19 @@ a .span {
     text-align: center;
 }
 
+.section.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/*ЗАГОЛОВОК БУДЕТ УБИРАТЬСЯ*/
+.section-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .feature .title {
+    margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     color: var(--black-text);
@@ -93,12 +136,16 @@ a .span {
 }
 
 .paragraf {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 14px;
     color: var(--grey-text);
     line-height: 1.7;
 }
 .section-topic {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -106,23 +153,37 @@ a .span {
 }
 
 .section-second {
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: var(--baground-second);
 }
-
+.section-second.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
 }
 
+img {
+    display: block;
+}
 .title {
+    margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
 }
 
 .par {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
