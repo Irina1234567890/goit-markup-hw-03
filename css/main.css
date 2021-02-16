@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
@@ -7,10 +17,21 @@ body {
 a {
     text-decoration: none;
 } 
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15p;
+}
+
 .header {
+    display: flex;
     background-color:  #FFFFFF;
     letter-spacing: 0.02em;
 }
+
 a .span {
    color: #2196F3;
    font-family: 'Raleway', sans-serif;
@@ -27,6 +48,9 @@ a .span {
     line-height: 1.2;
 }
 
+.site-nav list {
+    display: flex;
+}
 .site-nav a {
     font-weight: 500;
     color: var(--black-text);
@@ -105,6 +129,8 @@ a .span {
 }
 
 .section-second {
+    margin: 0;
+    padding: 0;
     background-color: var(--baground-second);
 }
 
@@ -115,13 +141,25 @@ a .span {
     text-align: center;
 }
 
+.spisok {
+    padding: 0;
+    margin: 0;
+}
+img {
+    display: block;
+}
+
 .title {
+    padding: 0;
+    margin: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
 }
 
 .par {
+    padding: 0;
+    margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
