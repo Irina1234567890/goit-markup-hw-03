@@ -27,6 +27,10 @@ a {
     padding-right: 15px;
 }
 
+.main-nav {
+    display: flex;
+}
+
 .header {
     background-color:  #FFFFFF;
     letter-spacing: 0.02em;
@@ -40,10 +44,6 @@ a .span {
    line-height: 1.2;
 }
 
-.site-nav {
-    padding: 0;
-    margin: 0;
-}
 .nav-studio {
     color: var(--black-text);
     font-family: 'Raleway', sans-serif;
@@ -52,9 +52,26 @@ a .span {
     line-height: 1.2;
 }
 
-.site-nav a {
-    font-weight: 500;
+.site-nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.site-nav .item {
+    background-color: red;
+    outline: 2px solid green;
+}
+
+.site-nav .item+ .item {
+    margin-left: 50px;
+}
+
+.site-nav .link {
+    display: block;
+
     color: var(--black-text);
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
@@ -64,10 +81,19 @@ a .span {
     color: var(--accent-color);
 }
 
+/*auth nav*/
 .contacts {
+    display: flex;
     padding: 0;
     margin: 0;
 }
+.contacts .item {
+    display: flex;
+}
+.contacts .item+ .item {
+    margin-left: 50px;
+}
+
 .contacts a {
     font-weight: 500;
     color: var(--grey-text);
@@ -170,6 +196,13 @@ a .span {
     text-align: center;
 }
 
+.spisok {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 img {
     display: block;
 }
@@ -183,7 +216,9 @@ img {
 
 .par {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
