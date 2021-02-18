@@ -23,7 +23,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
-    padding-right: 15p;
+    padding-right: 15px;
 }
 
 .header {
@@ -46,10 +46,37 @@ a .span {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    margin-right: 93px;
+    padding-bottom: 25px;
 }
 
-.site-nav list {
+.nav-header,
+.nav-list,
+.contacts {
     display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    align-item: center;
+    padding-top: 24px;
+}
+.nav-list {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin-left: 50px;
+}
+.contacts {
+    pading: 0;
+    margin: 0;
+}
+
+.contacts li:last-child{
+    margin-left: 50px;
 }
 .site-nav a {
     font-weight: 500;
@@ -83,6 +110,7 @@ a .span {
     color:var(--black-text);
 }
 
+/*HERO*/
 .hero {
     background: var(--baground-color);
     letter-spacing: 0.06em;
@@ -96,6 +124,7 @@ a .span {
     line-height: 1.4;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 200px;
 }
 
 .button {
@@ -107,7 +136,7 @@ a .span {
     align-items: center;
     text-align: center;
 }
-
+/*SECTION*/
 .feature .title {
     font-weight: 700;
     font-size: 14px;
