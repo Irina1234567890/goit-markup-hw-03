@@ -79,15 +79,18 @@ a .span {
 .contacts li:last-child{
     margin-left: 50px;
 }
-.site-nav a {
+.link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 500;
     color: var(--black-text);
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
-.site-nav a:hover, 
-.site-nav a:focus {
+.link:hover, 
+.link:focus {
     color: var(--accent-color);
 }
 
@@ -103,10 +106,10 @@ a .span {
     color: var(--accent-color);
 }
 
-.site-nav .link.current {
+/*.site-nav .link.current {
      color: var(--accent-color);
 }
-
+*/
 .section-title {
     color:var(--black-text);
 }
@@ -116,6 +119,7 @@ a .span {
     background: var(--baground-color);
     letter-spacing: 0.06em;
     text-align: center;
+    padding-bottom: 250px;
 }
 
 .hero-title {
@@ -143,7 +147,7 @@ a .span {
     border-radius: 4px;
     min-width: 200px;
     padding: 10px 32px;
-    margin-bottom: 250px;
+    /*margin-bottom: 250px;*/
 }
 /*SECTION*/
 .section h2 {
@@ -221,6 +225,7 @@ a .span {
     margin: 0;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 img {
     display: block;
@@ -245,9 +250,12 @@ img {
     margin-bottom: 124px;
 }
 
+/*footer*/
 .footer {
     background-color: var(--baground-color);
+    padding-bottom: 60px;
 }
+
 
 .container-footer {
     max-width: 1200px;
@@ -257,12 +265,14 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 60px;
-    padding-bottom: 60px;
 }
-
+.footer-studio,
+.span {
+    margin: 0;
+    padding: 0;
+}
 .footer-studio {
     margin-top: 60px;
-    padding: 0;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -282,7 +292,6 @@ img {
 
 .footer-street {
     margin-top: 20px;
-    margin-bottom: 9px;
     padding: 0;
     font-weight: 400;
     font-size: 14px;
@@ -294,6 +303,10 @@ img {
     margin-bottom: 9px;
 }
 
+.info {
+    margin: 0;
+    padding: 0;
+}
 .footer-mail {
     display: inline-block;
     font-style: normal;
@@ -308,10 +321,11 @@ img {
     color: var(--grey-text-op06);
 
 }
-
+    
 .mailto {
+    margin-top: 9px;
     margin-bottom: 9px;
 }
-.tel {
+/*.tel {
     margin-bottom: 60px;
-}
+}*/
