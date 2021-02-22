@@ -60,6 +60,7 @@ a .span {
     align-items: center;
 }
 
+.containerheader {
     justify-content: space-between;
     align-item: center;
     /*padding-top: 24px;*/
@@ -214,6 +215,7 @@ img {
 .footer {
     background-color: var(--baground-color);
     padding-bottom: 60px;
+    padding-top: 58px;
 }
 
 
@@ -224,7 +226,7 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 60px;
+    /*padding-top: 60px;*/
 }
 .footer-studio,
 .span {
