@@ -28,15 +28,13 @@ a {
 
 .header {
     padding-top: 24px;
-    /*padding-bottom: 25px;*/
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 .containerheader {
     display: flex;
     background-color:  #FFFFFF;
     letter-spacing: 0.02em;
-    border-bottom: 1px solid #ECECEC;
-    padding-bottom: 25px;
-   
 }
 a .span {
    color: #2196F3;
@@ -130,8 +128,8 @@ a .span {
 .knopki {
     display: flex;
     padding: 0;
-    margin-top: 94px;
-    margin-bottom: 50px;
+    padding-top: 94px;
+    padding-bottom: 50px;
     font-weight: 500;
     font-size: 16px;
     color: var(--black-text);
@@ -171,7 +169,7 @@ a .span {
 
     margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(-1 * var(--card-set-gap));
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .table > .item {
