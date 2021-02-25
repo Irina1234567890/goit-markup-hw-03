@@ -29,13 +29,13 @@ a {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    border-bottom: 1px solid #ECECEC;
+    /*border-bottom: 1px solid #ECECEC;*/
 }
 .containerheader {
     display: flex;
     background-color:  #FFFFFF;
     letter-spacing: 0.02em;
-    border-bottom: 1px solid #ECECEC;
+    /*border-bottom: 1px solid #ECECEC;*/
 }
 a .span {
    color: #2196F3;
@@ -153,7 +153,10 @@ a .span {
     /*margin-bottom: 250px;*/
 }
 /*SECTION*/
-.section h2 {
+.section-one {
+    padding-top: 44px;
+}
+.section-one h2 {
     margin: 0;
     padding: 0;
 }
@@ -181,13 +184,14 @@ a .span {
     font-size: 14px;
     color: var(--grey-text);
     line-height: 1.7;
-    margin-top: 24px;
 }
 
 /*section */
-.section .section-topic {
-    margin-top: 94px;
+.section-two {
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
+
 .section-topic {
     margin: 0;
     padding: 0;
@@ -195,6 +199,7 @@ a .span {
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 
@@ -204,7 +209,6 @@ a .span {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    padding-bottom: 94px;
 }
 
 /*section second*/

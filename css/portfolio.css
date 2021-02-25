@@ -118,7 +118,10 @@ a .span {
 
 
 /*button*/
-
+.section-first {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .name {
     padding: 0;
     margin: 0;
@@ -128,7 +131,7 @@ a .span {
 .knopki {
     display: flex;
     padding: 0;
-    padding-top: 94px;
+    margin: 0;
     padding-bottom: 50px;
     font-weight: 500;
     font-size: 16px;
@@ -169,7 +172,6 @@ a .span {
 
     margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(-1 * var(--card-set-gap));
-    padding-bottom: 94px;
 }
 
 .table > .item {
